@@ -1,0 +1,70 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(39, 58, 82);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#base64Input {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #b0b2b6;
+    background-color: #2a323d;
+    color: #b0b2b6;
+}
+
+#convertButton {
+    display: block;
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: rgb(140, 207, 253);
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+#convertButton:hover {
+    background-color: #419dfe;
+    transform: scale(0.99);
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+#overlayImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@keyframes playGif {
+    to {
+        visibility: hidden;
+    }
+}
+
+

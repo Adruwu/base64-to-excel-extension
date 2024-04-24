@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Base64 to Excel",
+    "version": "1.0",
+    "description": "Convierte una cadena en Base64 a un archivo de Excel.",
+    "permissions": [
+        "downloads"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
